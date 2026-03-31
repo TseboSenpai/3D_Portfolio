@@ -46,21 +46,7 @@ const ExperienceSection = () => {
                 <div className="relative z-50 xl:space-y-32 space-y-10">
                     {expCards.map((card, index) => (
                         <div key={card.title} className="exp-card-wrapper">
-                            {/* LEFT: Model only for the third card */}
-                            {index === 2 && (
-                                <div className="xl:w-2/6 relative ">
-                                <figure>
-                                    <div className="experience-3d-layout">
-                                    <WorkSectionExperience />
-                                    </div>
-                                </figure>
-                                </div>
-                            )}
-
-                            {/* If not the third card → keep spacing the same */}
-                            {index !== 2 && <div className="xl:w-2/6" />}
-                            
-                            <div className="xl:w-4/6">
+                            <div className="max-w-4xl mx-auto">
                                 <div className="flex items-start">
                                     <div className="timeline-wrapper">
                                         <div className="timeline"/> 
