@@ -59,7 +59,8 @@ const Hero = () => {
               <Button
                 className="md:w-80 md:h-16 w-60 h-12"
                 id="button"
-                text="See my Work"              
+                scrollTo="work"
+                text="See my Work"
               />
             </div>
             </header>

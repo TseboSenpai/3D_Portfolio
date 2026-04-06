@@ -29,7 +29,7 @@ const ExperienceSection = () => {
             gsap.from(text, {
                 xPercent: 0,
                 opacity: 0,
-                duration: 1,
+                duration: 0.5,
                 ease: 'power2.inOut',
                 scrollTrigger: {
                     trigger: text,

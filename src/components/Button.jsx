@@ -1,19 +1,21 @@
 import React from 'react'
 
-const Button = ({text, className, id}) => {
+const Button = ({text, className, id, scrollTo}) => {
   return (
-    <a 
+    <a
+      id={id}
       onClick={(e) => {
         e.preventDefault();
 
-        const target = document.getElementById('counter')
+        const targetId = scrollTo || id || 'counter';
+        const target = document.getElementById(targetId);
 
-        if(target && id) {
+        if (target) {
           const offset = window.innerHeight * 0.15;
 
           const top = target.getBoundingClientRect().top + window.scrollY - offset;
 
-          window.scrollTo({ top, behavior: 'smooth' })
+          window.scrollTo({ top, behavior: 'smooth' });
         }
       }}
       className={`${className ?? ' '} cta-wrapper`}>

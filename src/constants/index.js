@@ -13,10 +13,6 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
-  {
-    name: "Testimonials",
-    link: "#testimonials",
-  },
 ];
 
 const words = [
@@ -28,67 +24,6 @@ const words = [
   { text: "Concepts", imgPath: "/images/concepts.svg" },
   { text: "Designs", imgPath: "/images/designs.svg" },
   { text: "Code", imgPath: "/images/code.svg" },
-];
-
-const counterItems = [
-  { value: 15, suffix: "+", label: "Years of Experience" },
-  { value: 200, suffix: "+", label: "Satisfied Clients" },
-  { value: 108, suffix: "+", label: "Completed Projects" },
-  { value: 90, suffix: "%", label: "Client Retention Rate" },
-];
-
-const logoIconsList = [
-  {
-    imgPath: "/images/logos/company-logo-1.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-2.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-3.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-4.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-5.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-6.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-7.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-8.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-9.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-10.png",
-  },
-  {
-    imgPath: "/images/logos/company-logo-11.png",
-  },
-];
-
-const abilities = [
-  {
-    imgPath: "/images/seo.png",
-    title: "Quality Focus",
-    desc: "Delivering high-quality results while maintaining attention to every detail.",
-  },
-  {
-    imgPath: "/images/chat.png",
-    title: "Reliable Communication",
-    desc: "Keeping you updated at every step to ensure transparency and clarity.",
-  },
-  {
-    imgPath: "/images/time.png",
-    title: "On-Time Delivery",
-    desc: "Making sure projects are completed on schedule, with quality & attention to detail.",
-  },
 ];
 
 const techStackImgs = [
@@ -205,13 +140,13 @@ const expCards = [
     company: "Intergrators of System Technology (iST)",
     date: "March 2023 - February 2024",
     responsibilities: [
-      "Wrote clean, efficient, and well-documented code using a variety of programming languages and tools, including	but	not limited	to Java, Magik, SmallWorld, and	REST APIs.",
-      "Communicated effectively	with team	members and	other	stakeholders to ensure that project deadlines are	met.",
-      "Developed an automatic	updating system	for	the	company	database that reads	multiple CSV files and uses	the	information	within them to update the	various	specifications as required (Magik, Excel, SmallWorld,	Databases).",
-      "Developed a web service that takes in user input from Postman and updates the SmallWorld	database accordingly.",
-      "Managed error handling for multiple different instances (Magik, Postman, Kubernetes, SmallWorld). Managed error handling for multipledifferent instances (Magik, Postman, Kubernetes, SmallWorld).",
-      "Developed an outbound service that allows the internal system to notify the customer system that updates	have been	received from the	field	(Magik, SmallWorld,	SoapUI).",
-      "Contributed to various solutions in 4 different design sprints for	EOH. Worked with various people throughout the 4 different design sprints, which grew	my interpersonal communication skills	as well as team	collaboration.",
+      "Developed clean, efficient, and well-documented code using Java, Magik, SmallWorld, and REST APIs.",
+      "Collaborated with team members and stakeholders to meet project deadlines and deliver high-quality solutions.",
+      "Built an automated database update system that processes multiple CSV files to update specifications (Magik, Excel, SmallWorld).",
+      "Developed a web service to process user input and update the SmallWorld database.",
+      "Implemented and managed error handling across multiple systems (Magik, Postman, Kubernetes, SmallWorld).",
+      "Created an outbound service to notify external customer systems of field updates (Magik, SmallWorld, SoapUI).",
+      "Contributed to 4 design sprints, strengthening collaboration and communication skills across cross-functional teams."
     ],
     laptopModel: WorkSectionExperience,
   },
@@ -229,6 +164,35 @@ const expLogos = [
   {
     name: "logo3",
     imgPath: "/images/logo3.png",
+  },
+];
+
+const projects = [
+  {
+    name: "Wordle Clone",
+    description:
+      "An elegantly architected Wordle clone featuring a responsive front-end and robust game logic to deliver a seamless, daily puzzle experience.",
+    tags: [
+      {
+        name: "next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/images/projects/Wordle.png",
+    source_code_link: "https://github.com/TseboSenpai/WordleDupe",
+    live_link: "https://main.d3d36a8ofo9061.amplifyapp.com",
   },
 ];
 
@@ -277,39 +241,28 @@ const testimonials = [
   },
 ];
 
-const socialImgs = [
+
+const socials = [
   {
-    name: "insta",
-    url: "https://www.instagram.com/",
-    imgPath: "/images/insta.png",
-  },
-  {
-    name: "fb",
-    url: "https://www.facebook.com/",
-    imgPath: "/images/fb.png",
-  },
-  {
-    name: "x",
-    url: "https://www.x.com/",
-    imgPath: "/images/x.png",
+    name: "GitHub",
+    url: "https://github.com/TseboSenpai",
+    imgPath: "/images/github(white).png",
   },
   {
     name: "linkedin",
-    url: "https://www.linkedin.com/",
-    imgPath: "/images/linkedin.png",
+    url: "https://www.linkedin.com/in/tsebo-molope-481b971b5/",
+    imgPath: "/images/linkedin1.png",
   },
 ];
 
 export {
   words,
-  abilities,
-  logoIconsList,
-  counterItems,
   expCards,
   expLogos,
   testimonials,
-  socialImgs,
+  socials,
   techStackIcons,
   techStackImgs,
   navLinks,
+  projects,
 };
