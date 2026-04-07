@@ -192,7 +192,7 @@ const projects = [
     ],
     image: "/images/projects/Wordle.png",
     source_code_link: "https://github.com/TseboSenpai/WordleDupe",
-    live_link: "https://main.d3d36a8ofo9061.amplifyapp.com",
+    live_link: "https://wordledupe.vercel.app",
   },
 ];
 
