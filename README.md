@@ -1,16 +1,80 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 3D Portfolio
 
-Currently, two official plugins are available:
+A personal 3D portfolio built with React, Vite, and Three.js (via `@react-three/fiber`). It showcases interactive 3D scenes, experience and project models, and a contact form.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
+- Interactive 3D hero and work scenes using `three`, `@react-three/fiber`, and `@react-three/drei`.
+- Post-processing effects via `@react-three/postprocessing`.
+- Animations with `gsap` and `framer-motion`.
+- Contact form using `@emailjs/browser`.
+- Responsive layout and utility styles with `tailwindcss`.
 
-## React Compiler
+## Tech stack
+- React + Vite
+- three.js (`three`)
+- React Three Fiber (`@react-three/fiber`)
+- Drei helpers (`@react-three/drei`)
+- Postprocessing (`@react-three/postprocessing`)
+- GSAP and Framer Motion for animation
+- Tailwind CSS
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting started
 
-## Expanding the ESLint configuration
+Prerequisites: Node.js (v16+ recommended) and npm or yarn.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Install dependencies:
+
+```
+npm install
+```
+
+Run development server:
+
+```
+npm run dev
+```
+
+Build for production:
+
+```
+npm run build
+```
+
+Preview production build locally:
+
+```
+npm run preview
+```
+
+Lint the project:
+
+```
+npm run lint
+```
+
+## Project structure (key files)
+- [src](src) — application source
+	- [src/App.jsx](src/App.jsx) — top-level app
+	- [src/main.jsx](src/main.jsx) — Vite entry
+	- [src/constants/index.js](src/constants/index.js) — shared constants
+	- [src/components](src/components) — UI components (e.g., `NavBar.jsx`, `GlowCard.jsx`)
+	- [src/HeroModels](src/HeroModels) — 3D hero scene parts
+	- [src/WorkModels](src/WorkModels) — project models and scenes
+	- [src/sections](src/sections) — page sections (Hero, Projects, Contact, etc.)
+- [public](public) — static assets (images, textures, models)
+
+## Notes & tips
+- 3D models, textures, and static assets live under the `public` directory; update them there when swapping models or textures.
+- The contact form uses EmailJS — update the service/template/keys in the contact components and `src/constants` as needed.
+- Keep heavy models and large textures optimized for web (use Draco-compressed glTF where possible).
+
+## Contributing
+PRs welcome. For edits to scenes or models, please include small size assets or links to where large assets can be downloaded.
+
+## License
+This repository does not include a license file. Add one if you plan to publish or share the source.
+
+---
+
+If you want, I can also add a short demo section, screenshots, or deploy instructions (Netlify/Vercel). Just say which you'd like.
