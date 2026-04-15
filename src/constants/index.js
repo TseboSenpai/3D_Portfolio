@@ -174,7 +174,7 @@ const projects = [
       "An elegantly architected Wordle clone featuring a responsive front-end and robust game logic to deliver a seamless, daily puzzle experience.",
     tags: [
       {
-        name: "next.js",
+        name: "nextjs",
         color: "green-text-gradient",
       },
       {
@@ -193,6 +193,32 @@ const projects = [
     image: "/images/projects/Wordle.png",
     source_code_link: "https://github.com/TseboSenpai/WordleDupe",
     live_link: "https://wordledupe.vercel.app",
+  },
+  {
+    name: "Sudoku Lounge",
+    description:
+      "A React-based Sudoku game built with Vite, featuring an interactive grid, puzzle fetching from an API, and check/reset/new puzzle controls with visual feedback.",
+    tags: [
+      {
+        name: "reactjs",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "html",
+        color: "green-text-gradient",
+      },
+    ],
+    image: "/images/projects/Wordle.png",
+    source_code_link: "https://github.com/TseboSenpai/Sudoku",
+    live_link: "https://sudoku-lounge.vercel.app/",
   },
 ];
 
