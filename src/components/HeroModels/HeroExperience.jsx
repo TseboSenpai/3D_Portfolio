@@ -9,16 +9,20 @@ const HeroExperience = () => {
   const isTablet = useMediaQuery({ query: '(max-width: 1024px)'});
   const isMobile = useMediaQuery({ query: '(max-width: 768px)'});
   return (
-    <Canvas camera={{ position: [0, 0, 15], fov: 45 }} style={{ touchAction: 'pan-y' }}>
-      <OrbitControls
-      enabled={!isMobile}
-      enablePan={false}
-      enableZoom={!isTablet}
-      maxDistance={20}
-      minDistance={5}
-      minPolarAngle={Math.PI / 5}
-      maxPolarAngle={Math.PI / 2}
-      />
+    <Canvas
+      camera={{ position: [0, 0, 15], fov: 45 }}
+      onCreated={({ gl }) => { gl.domElement.style.touchAction = 'pan-y' }}
+    >
+      {!isMobile && (
+        <OrbitControls
+          enablePan={false}
+          enableZoom={!isTablet}
+          maxDistance={20}
+          minDistance={5}
+          minPolarAngle={Math.PI / 5}
+          maxPolarAngle={Math.PI / 2}
+        />
+      )}
   
   <HeroLights />
   <Particles count ={100} />
