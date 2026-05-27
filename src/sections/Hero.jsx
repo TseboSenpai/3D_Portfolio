@@ -67,7 +67,7 @@ const Hero = () => {
 
             {/*RIGHT: 3D MODEL */}
             <figure>
-               <div className="hero-3d-layout hover:cursor-grab">
+               <div className="hero-3d-layout hover:cursor-grab pointer-events-none md:pointer-events-auto">
                 <HeroExperience /> 
                </div>
             </figure>
