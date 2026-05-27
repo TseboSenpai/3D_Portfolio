@@ -50,7 +50,7 @@ const Projects = () => {
         <div className="w-full h-full md:px-10 px-5">
         <TitleHeader 
             title="My Projects"
-            sub="👩🏾‍💻 Done by yours truly (Not AI)"
+            sub="👩🏾‍💻 Done by yours truly"
             />
         <div id="work" ref={sectionRef} className="app-showcase">
             <div className="w-full">

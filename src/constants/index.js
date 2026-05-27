@@ -13,6 +13,10 @@ const navLinks = [
     name: "Skills",
     link: "#skills",
   },
+  {
+    name: "Education",
+    link: "#education",
+  },
 ];
 
 const words = [
@@ -222,8 +226,36 @@ const projects = [
   },
 ];
 
+const education = [
+  {
+    title: "BSc Information Technology",
+    school: "Eduvos",
+    year: "2023",
+  },
+  {
+    title: "BSc(Hons) Computing",
+    school: "University of South Africa",
+    year: "Ongoing",
+  },
+  {
+    title: "AWS Certified AI Practioner",
+    school: "Amazon Web Services",
+    year: "2025",
+  },
+  {
+    title: "AWS Certified Solutions Architect - Associate",
+    school: "Amazon Web Services",
+    year: "2025",
+  },
+  {
+    title: "GradStar Top 100 Student",
+    school: "GradStar",
+    year: "2022",
+  },
+];
+
 const testimonials = [
-  
+
 ];
 
 
@@ -250,4 +282,5 @@ export {
   techStackImgs,
   navLinks,
   projects,
+  education,
 };
