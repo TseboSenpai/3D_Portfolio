@@ -173,6 +173,32 @@ const expLogos = [
 
 const projects = [
   {
+    name: "Flordle",
+    description:
+    "A floral-themed Wordle variant built with Next.js and TypeScript. Guess a hidden five-letter word with real-time feedback using an on-screen keyboard and visual grid.",
+    tags: [
+      {
+        name: "nextjs",
+        color: "green-text-gradient",
+      },
+      {
+        name: "typescript",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/images/projects/Flordle.png",
+    source_code_link: "https://github.com/TseboSenpai/Flordle",
+    live_link: "https://flordle-wordle.vercel.app/",
+  },
+  {
     name: "Wordle Clone",
     description:
       "A compact Wordle-like game built with Next.js and TypeScript. It lets players guess a hidden five-letter word using an on-screen keyboard and guess grid, driven by a JSON word list and simple game state in a store.",
