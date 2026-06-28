@@ -113,14 +113,14 @@ const techStackIcons = [
 const expCards = [
   {
     imgPath: "/images/exp1.png",
-    logoPath: "/images/logos/aws.png",
+    logoPath: "/images/logos/RBHS.jpeg",
     title: "IT/Technology Teacher",
     company: "Rondebosch Boys' High School",
     date: "January 2026 - Present",
     responsibilities: [
-      "Completed a cloud computing program covering cloud foundations, network fundamentals, Linux, highly available web applications, AI/ML, and	governance and compliance.",
-      "Gained hands-on experience through Bottlenose Labs, solving real-world	problems in the	AWS cloud environment.",
-      "Contributed to a team project called ProjectHub, a fully AWS-hosted web application designed to connect engineers with project leaders. My primary focus: AWS Personalize, development	of webpages and core features, designing user workflows, DynamoDB, coordinating the progression of the project, scheduling meetings, assigning tasks, and	ensuring clear communication among team	members.",
+      "Teach IT and Technology to 209 students across Grade 8 and 10 — web development (HTML & CSS), introductory AI, digital literacy, and Delphi programming.",
+      "Ran a social media literacy and digital safety seminar for 190 Grade 8 students.",
+      "Provide maths coaching on the side, which has sharpened how I break down complex problems for different learners.",
     ],
   },
   {
@@ -130,9 +130,9 @@ const expCards = [
     company: "Amazon Web Services (AWS)",
     date: "February 2025 - August 2025",
     responsibilities: [
-      "Completed a cloud computing program covering cloud foundations, network fundamentals, Linux, highly available web applications, AI/ML, and	governance and compliance.",
-      "Gained hands-on experience through Bottlenose Labs, solving real-world	problems in the	AWS cloud environment.",
-      "Contributed to a team project called ProjectHub, a fully AWS-hosted web application designed to connect engineers with project leaders. My primary focus: AWS Personalize, development	of webpages and core features, designing user workflows, DynamoDB, coordinating the progression of the project, scheduling meetings, assigning tasks, and	ensuring clear communication among team	members.",
+      "Completed an intensive programme covering cloud foundations, networking, Linux, AI/ML, and governance.",
+      "Led a 5-person team to build ProjectHub — a platform where engineers browse and connect with project leads.",
+      "Personally handled front-end development, user workflow design, DynamoDB data modelling, and AWS Personalize integration (recommendation engine that surfaces relevant projects to each engineer).",
     ],
   },
   {
@@ -143,9 +143,10 @@ const expCards = [
     company: "Intergrators of System Technology (iST)",
     date: "February 2024 - August 2024",
     responsibilities: [
-      "Led the development of Docker's web applications, focusing on scalability.",
-      "Worked with backend engineers to integrate APIs seamlessly with the frontend.",
-      "Contributed to open-source projects that were used with the Docker ecosystem.",
+      "Built services connecting a mobile app to a backend GIS database, handling data ingestion and storage.",
+      "Developed and tested an outbound service to update electrical asset records, validated with SOAP UI and Postman.",
+      "Configured a location-lookup tool used by surveyors for infrastructure assessments in the field.",
+      "Connected UPS devices to a live IoT dashboard via VPN and reverse proxy, enabling real-time telemetry streaming.",
     ],
   },
   {
@@ -155,15 +156,10 @@ const expCards = [
     company: "Intergrators of System Technology (iST)",
     date: "March 2023 - February 2024",
     responsibilities: [
-      "Developed clean, efficient, and well-documented code using Java, Magik, SmallWorld, and REST APIs.",
-      "Collaborated with team members and stakeholders to meet project deadlines and deliver high-quality solutions.",
-      "Built an automated database update system that processes multiple CSV files to update specifications (Magik, Excel, SmallWorld).",
-      "Developed a web service to process user input and update the SmallWorld database.",
-      "Implemented and managed error handling across multiple systems (Magik, Postman, Kubernetes, SmallWorld).",
-      "Created an outbound service to notify external customer systems of field updates (Magik, SmallWorld, SoapUI).",
-      "Contributed to 4 design sprints, strengthening collaboration and communication skills across cross-functional teams."
+      "Built an automated system to bulk-update asset records across multiple databases by processing CSV files — cut out a lot of manual work.",
+      "Developed web services for database updates and real-time notifications to external client systems.",
+      "Participated in 4 Agile design sprints and got comfortable shipping real code in a team environment.",
     ],
-    laptopModel: WorkSectionExperience,
   },
 ];
 
