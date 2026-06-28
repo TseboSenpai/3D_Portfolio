@@ -114,6 +114,18 @@ const expCards = [
   {
     imgPath: "/images/exp1.png",
     logoPath: "/images/logos/aws.png",
+    title: "IT/Technology Teacher",
+    company: "Rondebosch Boys' High School",
+    date: "January 2026 - Present",
+    responsibilities: [
+      "Completed a cloud computing program covering cloud foundations, network fundamentals, Linux, highly available web applications, AI/ML, and	governance and compliance.",
+      "Gained hands-on experience through Bottlenose Labs, solving real-world	problems in the	AWS cloud environment.",
+      "Contributed to a team project called ProjectHub, a fully AWS-hosted web application designed to connect engineers with project leaders. My primary focus: AWS Personalize, development	of webpages and core features, designing user workflows, DynamoDB, coordinating the progression of the project, scheduling meetings, assigning tasks, and	ensuring clear communication among team	members.",
+    ],
+  },
+  {
+    imgPath: "/images/exp1.png",
+    logoPath: "/images/logos/aws.png",
     title: "Cloud Support Engineering Intern",
     company: "Amazon Web Services (AWS)",
     date: "February 2025 - August 2025",
@@ -122,7 +134,6 @@ const expCards = [
       "Gained hands-on experience through Bottlenose Labs, solving real-world	problems in the	AWS cloud environment.",
       "Contributed to a team project called ProjectHub, a fully AWS-hosted web application designed to connect engineers with project leaders. My primary focus: AWS Personalize, development	of webpages and core features, designing user workflows, DynamoDB, coordinating the progression of the project, scheduling meetings, assigning tasks, and	ensuring clear communication among team	members.",
     ],
-    laptopModel: WorkSectionExperience,
   },
   {
     laptopModel: WorkSectionExperience,
