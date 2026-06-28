@@ -2,7 +2,7 @@ import WorkSectionExperience from "../components/WorkModels/WorkSectionExperienc
 
 const navLinks = [
   {
-    name: "Work",
+    name: "Projects",
     link: "#work",
   },
   {
