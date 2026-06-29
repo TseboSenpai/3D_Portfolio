@@ -254,8 +254,8 @@ const projects = [
       },
     ],
     image: "/images/projects/Sudoku.png",
-    source_code_link: "https://github.com/TseboSenpai/Sudoku",
-    live_link: "https://sudoku-lounge.vercel.app/",
+    source_code_link: "https://github.com/TseboSenpai/SudokuLounge",
+    live_link: "https://sudokulounge.vercel.app/",
   },
 ];
 
