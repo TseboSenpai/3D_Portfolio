@@ -180,6 +180,32 @@ const expLogos = [
 
 const projects = [
   {
+    name: "Hangman",
+    description:
+    "A retro pixel-art Hangman built with Python and Pygame, playable natively or in-browser via a WASM build. Features topic-based word banks, background music, and a hand-drawn UI. Web-demo available.",
+    tags: [
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "pygame",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "asyncio",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "pygbag(WASM)",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/images/projects/Hangman.png",
+    source_code_link: "https://github.com/TseboSenpai/Hangman",
+    live_link: "https://tsebosenpai.github.io/hangman_web/",
+  },
+  {
     name: "Flordle",
     description:
     "A floral-themed Wordle variant built with Next.js and TypeScript. Guess a hidden five-letter word with real-time feedback using an on-screen keyboard and visual grid.",
