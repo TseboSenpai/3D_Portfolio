@@ -36,6 +36,10 @@ const techStackImgs = [
     imgPath: "/images/logos/react.png",
   },
   {
+    name: "Next.js",
+    imgPath: "/images/logos/nextjs.svg",
+  },
+  {
     name: "Python",
     imgPath: "/images/logos/python.svg",
   },
@@ -180,6 +184,48 @@ const expLogos = [
 
 const projects = [
   {
+    name: "Local-Aware AI Job Matching",
+    description:
+    "Machine learning job recommendations for job seekers in Limpopo, South Africa.",
+    tags: [
+      {
+        name: "python",
+        color: "green-text-gradient",
+      },
+      {
+        name: "ML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "NLP",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "spaCy",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Recommender Systems",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Sentence Transformers",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "AI Fairness",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "Data Analysis",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: "/images/projects/Local-Aware AI Job Matching.png",
+    source_code_link: "https://github.com/TseboSenpai/ai-job-matching-skills-za",
+    live_link: "https://github.com/TseboSenpai/ai-job-matching-skills-za",
+  },
+  {
     name: "Hangman",
     description:
     "A retro pixel-art Hangman built with Python and Pygame, playable natively or in-browser via a WASM build. Features topic-based word banks, background music, and a hand-drawn UI. Web-demo available.",
@@ -305,6 +351,11 @@ const education = [
     title: "AWS Certified Solutions Architect - Associate",
     school: "Amazon Web Services",
     year: "2025",
+  },
+  {
+    title: "Postgraduate Certificate in Education in Senior Phase and Further Education and Training Teaching",
+    school: "Stadio",
+    year: "2026",
   },
   {
     title: "GradStar Top 100 Student",
