@@ -122,9 +122,8 @@ const expCards = [
     company: "Rondebosch Boys' High School",
     date: "January 2026 - Present",
     responsibilities: [
-      "Teach IT and Technology to 209 students across Grade 8 and 10 — web development (HTML & CSS), introductory AI, digital literacy, and Delphi programming.",
-      "Ran a social media literacy and digital safety seminar for 190 Grade 8 students.",
-      "Provide maths coaching on the side, which has sharpened how I break down complex problems for different learners.",
+      "Teach programming (Delphi, HTML/CSS) and introductory AI to Grade 8 and 10 learners; designed programming exercises, exams and marking rubrics.",
+      "Run coding and robotics projects, mentoring learners through debugging and team problem-solving.",
     ],
   },
   {
@@ -134,9 +133,9 @@ const expCards = [
     company: "Amazon Web Services (AWS)",
     date: "February 2025 - August 2025",
     responsibilities: [
-      "Completed an intensive programme covering cloud foundations, networking, Linux, AI/ML, and governance.",
-      "Led a 5-person team to build ProjectHub — a platform where engineers browse and connect with project leads.",
-      "Personally handled front-end development, user workflow design, DynamoDB data modelling, and AWS Personalize integration (recommendation engine that surfaces relevant projects to each engineer).",
+      "Led a 5-person team that built ProjectHub, a platform where engineers find and connect with project leads, taking it from concept to a working demo presented to AWS managers; handled stakeholder communication and delegated tasks.",
+      "Built the Next.js front end and user workflows on Amplify with Cognito authentication, designed the DynamoDB data model, and integrated Amazon Personalize to recommend relevant projects to each engineer.",
+      "Completed AWS technical training in cloud foundations, Linux, networking, highly available web applications, AI/ML and governance and compliance, and earned AWS Solutions Architect – Associate and AI Practitioner certifications during the programme.",
     ],
   },
   {
@@ -147,10 +146,11 @@ const expCards = [
     company: "Intergrators of System Technology (iST)",
     date: "February 2024 - August 2024",
     responsibilities: [
-      "Built services connecting a mobile app to a backend GIS database, handling data ingestion and storage.",
-      "Developed and tested an outbound service to update electrical asset records, validated with SOAP UI and Postman.",
-      "Configured a location-lookup tool used by surveyors for infrastructure assessments in the field.",
-      "Connected UPS devices to a live IoT dashboard via VPN and reverse proxy, enabling real-time telemetry streaming.",
+      "Built an inbound integration service connecting a field workers’ mobile app to the GE SmallWorld server, handling data ingestion, validation and database insertion.",
+      "Developed an outbound service that updates electrical-asset properties, tested against SoapUI mock servers and Postman before release",
+      "Integrated 5 UPS devices into a ThingsBoard IoT dashboard over VPN and a reverse proxy, streaming real-time telemetry.",
+      "Extended a Python SNMP trap handler to route UPS alerts to a designated network router.",
+      "Configured SmallWorld Electric Office so surveyors can look up infrastructure by coordinates or address.",
     ],
   },
   {
@@ -160,9 +160,10 @@ const expCards = [
     company: "Intergrators of System Technology (iST)",
     date: "March 2023 - February 2024",
     responsibilities: [
-      "Built an automated system to bulk-update asset records across multiple databases by processing CSV files — cut out a lot of manual work.",
-      "Developed web services for database updates and real-time notifications to external client systems.",
-      "Participated in 4 Agile design sprints and got comfortable shipping real code in a team environment.",
+      "Built a bulk-update tool that processes ~20 CSV files to update specifications for ~2,000 assets across SmallWorld and Excel, replacing a full day of manual data entry per update cycle.",
+      "Developed a web service that takes user input and writes it to the SmallWorld database, with error handling across the full request path.",
+      "Built a real-time notification service that alerts external systems when field data changes.",
+      "Delivered across 4 Agile design sprints with cross-functional teams and client stakeholders.",
     ],
   },
 ];
