@@ -131,6 +131,7 @@ const expCards = [
     logoPath: "/images/logos/aws.png",
     title: "Cloud Support Engineering Intern",
     company: "Amazon Web Services (AWS)",
+    stack: "Next.js, AWS Amplify, Cognito, Lambda, S3, DynamoDB, Amazon Personalize",
     date: "February 2025 - August 2025",
     responsibilities: [
       "Led a 5-person team that built ProjectHub, a platform where engineers find and connect with project leads, taking it from concept to a working demo presented to AWS managers; handled stakeholder communication and delegated tasks.",
@@ -145,6 +146,7 @@ const expCards = [
     title: "Junior Software Developer II",
     company: "Intergrators of System Technology (iST)",
     date: "February 2024 - August 2024",
+    stack: "Magik, Python, SOAP/REST, SoapUI, Postman, ThingsBoard",
     responsibilities: [
       "Built an inbound integration service connecting a field workers’ mobile app to the GE SmallWorld server, handling data ingestion, validation and database insertion.",
       "Developed an outbound service that updates electrical-asset properties, tested against SoapUI mock servers and Postman before release",
@@ -159,6 +161,7 @@ const expCards = [
     title: "Graduate Software Developer",
     company: "Intergrators of System Technology (iST)",
     date: "March 2023 - February 2024",
+    stack: "Magik, SOAP/REST, SoapUI, Postman",
     responsibilities: [
       "Built a bulk-update tool that processes ~20 CSV files to update specifications for ~2,000 assets across SmallWorld and Excel, replacing a full day of manual data entry per update cycle.",
       "Developed a web service that takes user input and writes it to the SmallWorld database, with error handling across the full request path.",

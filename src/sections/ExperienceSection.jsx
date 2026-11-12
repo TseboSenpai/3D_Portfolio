@@ -65,6 +65,18 @@ const ExperienceSection = () => {
                                     <p className="my-5 text-white-50">
                                         🗓️ {card.date}
                                     </p>
+                                    {card.stack && (
+                                        <div className="my-5 flex flex-wrap gap-2">
+                                            {card.stack.split(',').map((tech) => (
+                                                <span
+                                                    key={tech.trim()}
+                                                    className="rounded-full border border-white/15 bg-white/5 px-3 py-1 text-sm text-white-50"
+                                                >
+                                                    {tech.trim()}
+                                                </span>
+                                            ))}
+                                        </div>
+                                    )}
                                     <p className="text-[#839cb5] italic">
                                         Responsibilities
                                     </p>
