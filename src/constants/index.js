@@ -278,32 +278,6 @@ const projects = [
     live_link: "https://flordle-wordle.vercel.app/",
   },
   {
-    name: "Wordle Clone",
-    description:
-      "A compact Wordle-like game built with Next.js and TypeScript. It lets players guess a hidden five-letter word using an on-screen keyboard and guess grid, driven by a JSON word list and simple game state in a store.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "green-text-gradient",
-      },
-      {
-        name: "typescript",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "orange-text-gradient",
-      },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: "/images/projects/Wordle.png",
-    source_code_link: "https://github.com/TseboSenpai/WordleDupe",
-    live_link: "https://wordledupe.vercel.app",
-  },
-  {
     name: "Sudoku Lounge",
     description:
       "A React-based Sudoku game built with Vite, featuring an interactive grid, puzzle fetching from an API, and check/reset/new puzzle controls with visual feedback.",
