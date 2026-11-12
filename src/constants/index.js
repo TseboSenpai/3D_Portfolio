@@ -118,7 +118,7 @@ const expCards = [
   {
     imgPath: "/images/exp1.png",
     logoPath: "/images/logos/RBHS.jpeg",
-    title: "IT/Technology Teacher",
+    title: "IT/Technology Student Teacher",
     company: "Rondebosch Boys' High School",
     date: "January 2026 - Present",
     responsibilities: [
