@@ -353,11 +353,6 @@ const education = [
     year: "2025",
   },
   {
-    title: "Postgraduate Certificate in Education in Senior Phase and Further Education and Training Teaching",
-    school: "Stadio",
-    year: "2026",
-  },
-  {
     title: "GradStar Top 100 Student",
     school: "GradStar",
     year: "2022",
