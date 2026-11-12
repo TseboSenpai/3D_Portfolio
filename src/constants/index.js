@@ -223,7 +223,7 @@ const projects = [
     ],
     image: "/images/projects/Local-Aware AI Job Matching.png",
     source_code_link: "https://github.com/TseboSenpai/ai-job-matching-skills-za",
-    live_link: "https://github.com/TseboSenpai/ai-job-matching-skills-za",
+    live_link: "https://localmatchza.vercel.app/",
   },
   {
     name: "Hangman",
